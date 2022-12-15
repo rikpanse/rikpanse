@@ -1,0 +1,141 @@
+
+/******Overall Body******/
+
+h1{
+  font-family: sacramento;
+  font-size: 5.625rem;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+h2{
+  font-family: montserrat;
+}
+
+h1,h2,h3{
+  color: #66bfbf
+}
+
+h3{
+  font-family: montserrat;
+  font-weight: 900
+}
+
+p{
+  font-family: merriweather;
+  color: #40514e;
+  line-height: 1.6;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/******Button "Contact Me"******/
+.button {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3cb0fd);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3cb0fd);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3cb0fd);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3cb0fd);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3cb0fd);
+    text-decoration: none;
+  }
+
+  /******Top Container******/
+  .top-container{
+    background-color: #eaf6f6;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+  }
+
+  .bottom-cloud{
+    position:absolute;
+    left: 12.5rem;
+  }
+
+  .top-cloud{
+    position:absolute;
+    right: 12.5rem;
+    padding-top: 6.25rem;
+  }
+
+  /******Middle Container******/
+  .middle-container{
+    position: relative;
+    text-align: center;
+  }
+
+  /***Hello Class***/
+  .hello{
+    width: 26rem;
+    display: inline-block;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    margin: 0 auto;
+  }
+
+  .rikpan{
+    width: 10rem;
+    height: 10rem;
+  }
+
+  hr{
+    border-top: dotted 5px #D8D9CF;
+    width: 4em;
+  }
+
+  /***Skill Class***/
+  .My-Skill{
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .skill{
+    margin-top: 4.375rem;
+    width: 42rem;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .skill-row1{
+    text-align: left;
+    margin-bottom: 70px;
+  }
+
+  .skill-row2{
+    text-align: left;
+  }
+
+  .HS-Code{
+    border-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    float: left;
+    margin-right: 40px;
+  }
+
+  .customs-value{
+    border-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    float: right;
+    margin-left: 40px;
+  }
+  
